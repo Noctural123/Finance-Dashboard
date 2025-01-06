@@ -56,9 +56,6 @@ export const tokens = {
         ...tokens.secondary,
         main: tokens.secondary[500],
       },
-      tertiary: {
-        ...tokens.tertiary,
-      },
       grey: {
         ...tokens.grey,
         main: tokens.grey[500],
