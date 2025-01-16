@@ -1,0 +1,7 @@
+{
+  "files": [], // You can leave this empty since "include" covers your files
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
