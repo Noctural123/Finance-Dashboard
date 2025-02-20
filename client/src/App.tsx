@@ -7,7 +7,12 @@ import Navbar from "./scenes/navbar/index.tsx"
 import Dashboard from "./scenes/dashboard"
 
 function App() {
-  const theme = useMemo(() => createTheme(themeSettings), [])
+  const theme = useMemo(() => {
+    return createTheme(themeSettings)}
+    , [])
+  {/* Or 
+    const theme = useMemo(() => createTheme(themeSettings), []);
+    */}
 
   return(
      <div className="app">
