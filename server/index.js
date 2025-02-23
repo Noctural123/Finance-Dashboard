@@ -7,6 +7,9 @@ import helmet from "helmet";
 import morgan from "morgan";
 import kpiRoutes from "./routes/kpi.js"
 
+/* ROUTES */PORT
+app.use("/kpi", kpiRoutes)
+
 /* CONFIGS */
 dotenv.config()
 const app = express();
