@@ -64,6 +64,10 @@ export const tokens = {
         default: tokens.background.main,
         light: tokens.background.light,
       },
+      tertiary: {
+        ...tokens.tertiary,
+        main: tokens.tertiary[500],
+      },
     },
     typography: {
       fontFamily: ["Inter", "sans-serif"].join(","),
