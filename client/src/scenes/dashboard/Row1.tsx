@@ -1,6 +1,6 @@
 import DashboardBox from '../../components/DashboardBox'
 import { useGetKpisQuery } from '../../state/api'
-import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Line, Legend, LineChart, BarChart, Bar, Rectangle } from 'recharts'
+import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Line, Legend, LineChart, BarChart, Bar } from 'recharts'
 import { useMemo } from 'react'
 import { useTheme } from '@mui/material/styles'
 import BoxHeader from '../../components/BoxHeader'

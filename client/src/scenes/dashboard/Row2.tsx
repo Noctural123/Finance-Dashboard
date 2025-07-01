@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import DashboardBox from '../../components/DashboardBox'
 import { useGetKpisQuery, useGetProductsQuery } from '../../state/api';
 import BoxHeader from '../../components/BoxHeader';
@@ -99,7 +99,7 @@ const Row2 = () => {
             paddingAngle={2}
             dataKey="value"
           >
-            {pieData.map((entry, index) => (
+            {pieData.map((_entry, index) => (
               <Cell 
               key={`cell-${index}`} 
               fill={pieColors[index]} />
