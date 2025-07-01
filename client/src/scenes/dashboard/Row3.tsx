@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import DashboardBox from '../../components/DashboardBox'
 import { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } from '../../state/api';
 import { DataGrid, GridCellParams } from '@mui/x-data-grid';
@@ -174,7 +174,7 @@ const Row3 = () => {
                   paddingAngle={2}
                   dataKey="value"
                 >
-                  {data.map((entry, index) => (
+                  {data.map((_entry, index) => (
                     <Cell 
                     key={`cell-${index}`} 
                     fill={pieColors[index]} />
